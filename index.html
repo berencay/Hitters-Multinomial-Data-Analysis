@@ -388,50 +388,7 @@ birthday, our model generated another cross-validation method, being
 that is performing better than our full model. Then, we concluded both
 cross-validation methods again to check if our test error has
 decreased.</p>
-<div id="chatgpt-usage" class="section level2">
-<h2>ChatGPT Usage</h2>
-<p>As a side note, we could have used ChatGPT, but only if we justified
-it. In this project we have used ChatGPT, first, in handling errors. One
-of the problems that occured was, while we were knitting the HTML
-output, it was showing R Studio’s update version notification in every
-library loading command. Therefore, we asked ChatGPT how to fix it, it
-gave us <strong>“{r, message=FALSE, warning=FALSE}”</strong> line, which
-helped us to not have the errors or any other notification pop up in the
-HTML output.</p>
-<p>Secondly, we used ChatGPT during our new model creation, while we
-were trying several different methods to increase the accuracy, it was
-not going above 61 percent, so we checked which method could have been
-used to receive the best accuracy. In accordance with our lab sessions,
-we tried all the methods, however, we wanted to explore if there were
-other methods that could increase our accuracy. We obtained the best
-option as backward selection, therefore, we decided to use that. We will
-be explaining in depth in the last section of our project, but overall
-as predicted, it actually gave us a better accuracy then before.</p>
-<p>Moreover, we used it in the second cross-validation method. As we are
-4 people, we had to conduct the second cross validation. We didn’t want
-it to be chosen by us, but rather using the same structure as before.
-Therefore, we used the birthday method. However, after setting the seed
-with the second closest birthday to 21st of August, it still gave us the
-LOO-CV method. We couldn’t understand why, so we asked ChatGPT what
-could we do to prevent this. It gave us this line of code
-<strong>“second_cv_options &lt;- setdiff(cv_methods,”LOOCV”)“</strong>.
-By this, our code generated a different cross-validation method from
-LOO-CV.</p>
-<p>Lastly, we consulted ChatGPT for the HTML structure visually. For
-example, for writing words in bold, or making bullet points, and even
-making the headers. In addition, we used ChatGPT for having a better
-visual when we knitted. We wanted our comments to have the same gap from
-left to right, just like a Word document.</p>
-<p>Also, we asked ChatGPT to get confirmation on whether if we could
-have done EDA in an other way, if our justifications were correct, if we
-could have used other visualization methods other than boxplots, and
-even whether if our cross validation methods were functioning
-correctly.</p>
-<p>To sum up, we can say that we, in fact, used ChatGPt, however, we
-used it to make our project structure both visually and structurally
-better and more cohesive.</p>
-</div>
-</div>
+
 <div id="simple-logistic-regression-vs.-multinomial-logistic-regression-and-formalization" class="section level1">
 <h1>Simple Logistic Regression vs. Multinomial Logistic Regression and
 Formalization</h1>
@@ -2269,5 +2226,6 @@ $(document).ready(function () {
 
 </body>
 </html>
+
 
 
