@@ -53,6 +53,10 @@ In our dataset, we did not remove the outliers in the beginning, to see if some 
 
 Data <- read.csv("Hitters.csv")
 str(Data)
+```r
+Data <- read.csv("Hitters.csv")
+str(Data)
+
 ## 'data.frame':    317 obs. of  20 variables:
 ##  $ AtBat    : int  293 315 479 496 321 594 185 298 323 574 ...
 ##  $ Hits     : int  66 81 130 141 87 169 37 73 81 159 ...
@@ -74,6 +78,10 @@ str(Data)
 ##  $ Errors   : int  20 10 14 3 4 25 7 9 19 22 ...
 ##  $ Salary   : num  NA 475 480 500 91.5 ...
 ##  $ NewLeague: chr  "A" "N" "A" "N" ...
+```r
+Data <- read.csv("Hitters.csv")
+str(Data)
+
 summary(Data)
 ##      AtBat            Hits           HmRun            Runs       
 ##  Min.   : 16.0   Min.   :  1.0   Min.   : 0.00   Min.   :  0.00  
