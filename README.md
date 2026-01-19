@@ -39,6 +39,6 @@ Salary levels (created from salary quartiles):
 
 ## Repository Structure
 - `index.html` — rendered report used by GitHub Pages
-- `report/analysis.Rmd` — full reproducible analysis (source)
+- `report/ProjectWork_We R Who We R.Rmd` — full reproducible analysis (source)
 - `data/Hitters.csv` — dataset used in the analysis
 - `docs/GroupProject.pdf` — project write-up (optional)
